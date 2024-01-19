@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&display=swap');
+
+* {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.csp {
+    font-weight: 700;
+}
+
+.ft700 {
+    font-weight: 700;
+}
+
+.ft500 {
+    font-weight: 400;
+}
+
+.ft600 {
+    font-weight: 600;
+}
+
+h5.ft700.cs {
+    font-size: 24px;
+}
+
+
+.header {
+    height: 130px;
+    background-color: white;
+}
+
+.subhead {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px
+}
+
+.headtext {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.whatsappContact {
+    width: 190px;
+    background-color: rgb(121 209 90);
+    border-radius: 15px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.register {
+    width: 190px;
+    background-color: #0077C8;
+    border-radius: 15px;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    border: 0px solid;
+}
+
+.container-fluid.cs {
+    background-color: #019EE3;
+    color: white;
+}
+
+.introcard {
+    border: solid 1px #0077C8;
+    background-color: aliceblue;
+    padding: 20px 20px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: white;
+}
+
+.credit {
+    padding: 30px;
+}
+
+.creditsub {
+    box-shadow: 5px 0px 12px 5px #cdcdcd;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.coursecard {
+    height: auto;
+    border-radius: 10px;
+    border: solid 1px #0077C8;
+    width: auto;
+}
+
+.coursecardtitle {
+    background-color: #0077C8;
+    padding: 15px;
+    color: white;
+    height: 110px;
+}
+
+.coursecardcontent {
+    padding: 15px;
+    height: 190px;
+    overflow-y: scroll;
+
+}
+
+.testimonials {
+    background-color: #EEF8FE;
+    padding: 30px 0px;
+}
+
+.text-muted {
+    color: white !important;
+}
+
+.gradient {
+    font-size: 60px;
+    background: -webkit-linear-gradient(#019EE3, #4E36F5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sdsub1 {
+    background-color: aliceblue;
+    padding: 40px 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px 1px rgb(226, 226, 226);
+    width: 300px;
+    position: relative;
+}
+
+
+.sdsub2 {
+    background-color: rgb(61, 155, 255);
+    padding: 20px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px 1px rgb(226, 226, 226);
+    width: 300px;
+    color: white;
+    font-weight: 700;
+
+}
+.pstore{
+width: 200px;
+margin-bottom: 10px;
+
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    padding: 0px;
+    z-index: 100;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+    .container-fluid.cs {
+        background-color: white;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .whatsappContact {
+        width: 150px;
+        background-color: rgb(121 209 90);
+        border-radius: 15px;
+        height: 50px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .nav-link {
+        color: #0077C8;
+        font-weight: 600;
+    }
+
+    .header {
+        height: 140px;
+        background-color: white;
+    }
+
+    .headtext {
+        display: none;
+        align-items: center;
+    }
+
+    .gradient {
+        font-size: 40px;
+        background: -webkit-linear-gradient(#019EE3, #4E36F5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}
